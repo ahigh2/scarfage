@@ -35,9 +35,9 @@ def send_mail(recipient, subject, message, sender=None):
     msg.attach(part1)
     msg.attach(part2)
 
-    s = smtplib.SMTP('localhost')
-    try:
-        s.sendmail(sender, recipient, msg.as_string())
-    except (smtplib.SMTPRecipientsRefused, HeaderParseError):
-        pass
-    s.quit()
+    # s = smtplib.SMTP('localhost')
+    # try:
+    #     s.sendmail(sender, recipient, msg.as_string())
+    # except (smtplib.SMTPRecipientsRefused, HeaderParseError):
+    #     pass
+    # s.quit()

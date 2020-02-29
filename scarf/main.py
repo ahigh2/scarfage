@@ -126,7 +126,7 @@ def render_markdown(string):
     :param string: string to process
     :return: rendered string
     """
-    return bleach.linkify(markdown.markdown(core.escape_html(unicode(string)), md_extensions))
+    return bleach.linkify(markdown.markdown(core.escape_html(unicode(string))))
 
 def render_markdown_safe(string):
     """
@@ -135,7 +135,7 @@ def render_markdown_safe(string):
     :param string: string to process
     :return: rendered string
     """
-    return bleach.linkify(markdown.markdown(unicode(string), md_extensions))
+    return bleach.linkify(markdown.markdown(unicode(string)))
 
 def request_wants_json():
     """

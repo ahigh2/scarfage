@@ -10,6 +10,6 @@ bcrypt
 pytz
 bleach
 sphinx
-fake-factory
+Faker
 urllib3[secure]
 requests_oauthlib

@@ -9,3 +9,4 @@ testimgs
 .gulp-scss-cache
 .sass-cache
 _scss
+.vscode

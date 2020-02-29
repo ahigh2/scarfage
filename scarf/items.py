@@ -7,7 +7,7 @@ import core
 import json
 
 from flask import redirect, url_for, request, render_template, session, flash
-from werkzeug import secure_filename
+#from werkzeug import secure_filename
 from access import check_admin
 import logging
 
